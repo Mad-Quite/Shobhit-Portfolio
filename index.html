@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="name">
+                <h1>SHOBHIT KUMAR</h1>
+            </div>
+            <div class="about">
+                <p>About Projects<p>
+                <p>My Profile<p>
+                <p>Blog</p>
+            </div>
+        </header>
+        <section>
+            <div class="image">
+            </div>
+            <div class="other">
+                <div class="work">
+                    <h1 class="color">Web Developer</h1>
+                </div>
+                <div class="project">
+                    <div><img src="projects.png" alt="project" height="50px">
+                        <h3 class="color">My Projects</h3>
+                    </div>
+                    <div><img src="location.png" alt="Location" height="50px">
+                        <h3 class="color">Uttar Pradesh, India</h3>
+                    </div>
+                    <div onclick="fun1()">
+                        <img src="phone2.png" alt="contact" height="50px" style="cursor:auto;">
+                        <h3 class="color" id="Phonenumber1">Contact</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="about2">
+                <div class="a">
+                    <img src="profile.png" alt="" height="50px">
+                    <h3 class="a">About Me</h3>
+                </div>
+                <div class="b">
+                    <img src="skill.png" alt="" height="50px">
+                    <h3 class="b">My Skills</h3>
+                </div>
+                <div onclick="fun2()" class="c">
+                    <img src="phone3.png" alt="" height="50px">
+                    <h3 id="Phonenumber2" class="c">Contact Me</h3>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script>
+    function fun1() {
+        document.getElementById("Phonenumber1").innerHTML = "+91 989725562";
+    }
+    function fun2() {
+        document.getElementById("Phonenumber2").innerHTML = "+91 989725562";
+    }
+</script>
+
+</html>
